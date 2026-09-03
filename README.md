@@ -22,7 +22,7 @@ Mono 黑白灰是稳定的保底方案，同时也有彩色模式，目前支持
 
 ### Lupi Editorial
 
-细读、逐记录、编辑感。精选 20 张编辑叙事型模板中的代表图型。
+细读、逐记录、编辑感。精选 19 张编辑叙事型模板中的代表图型。
 
 <table>
   <tr>
@@ -34,7 +34,7 @@ Mono 黑白灰是稳定的保底方案，同时也有彩色模式，目前支持
 
 ### Glance
 
-快读、聚合、结论先行。精选 21 张快速判断型模板中的代表图型。
+快读、聚合、结论先行。精选 20 张快速判断型模板中的代表图型。
 
 <table>
   <tr>
@@ -92,8 +92,7 @@ Mono 黑白灰是稳定的保底方案，同时也有彩色模式，目前支持
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/assets/preview-color-porcelain-basics.png" alt="青瓷蓝 Basics 彩色图表预览" width="100%"><br><strong>Basics</strong></td>
-    <td width="50%"><img src="docs/assets/preview-color-porcelain-glance.png" alt="青瓷蓝 Glance 彩色图表预览" width="100%"><br><strong>Glance</strong></td>
+    <td width="100%"><img src="docs/assets/preview-color-porcelain-basics.png" alt="青瓷蓝 Basics 彩色图表预览" width="100%"><br><strong>Basics</strong></td>
   </tr>
   <tr><td colspan="2"><img src="docs/assets/preview-color-porcelain.png" alt="青瓷蓝 Lupi 彩色图表预览" width="100%"><br><strong>Lupi Editorial</strong></td></tr>
 </table>
@@ -123,8 +122,7 @@ Mono 黑白灰是稳定的保底方案，同时也有彩色模式，目前支持
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/assets/preview-color-wire-basics.png" alt="编辑部红 Basics 彩色图表预览" width="100%"><br><strong>Basics</strong></td>
-    <td width="50%"><img src="docs/assets/preview-color-wire-glance.png" alt="编辑部红 Glance 彩色图表预览" width="100%"><br><strong>Glance</strong></td>
+    <td width="100%"><img src="docs/assets/preview-color-wire-basics.png" alt="编辑部红 Basics 彩色图表预览" width="100%"><br><strong>Basics</strong></td>
   </tr>
   <tr><td colspan="2"><img src="docs/assets/preview-color-wire.png" alt="编辑部红 Lupi 彩色图表预览" width="100%"><br><strong>Lupi Editorial</strong></td></tr>
 </table>
@@ -139,7 +137,6 @@ Mono 黑白灰是稳定的保底方案，同时也有彩色模式，目前支持
   <tr>
     <td width="25%"><img src="docs/assets/reports/report-03.png" alt="报告模板 03 年度数据报告 / 年度海报" width="100%"><br><strong>R03 · 年度数据报告 / 年度海报</strong></td>
     <td width="25%"><img src="docs/assets/reports/report-09.png" alt="报告模板 09 业务数据 / 财务经营 Dashboard" width="100%"><br><strong>R09 · 业务数据 / 财务经营 Dashboard</strong></td>
-    <td width="25%"><img src="docs/assets/reports/report-12.png" alt="报告模板 12 周期数据快报 / 监控摘要" width="100%"><br><strong>R12 · 周期数据快报 / 监控摘要</strong></td>
     <td width="25%"><img src="docs/assets/reports/report-08.png" alt="报告模板 08 人群与社会经济数据一页" width="100%"><br><strong>R08 · 人群 / 社会经济数据一页</strong></td>
   </tr>
   <tr>

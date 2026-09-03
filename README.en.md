@@ -92,8 +92,7 @@ A single-hue blue scale for ordered data and single-series charts.
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/assets/preview-color-porcelain-basics.png" alt="Porcelain Basics color preview" width="100%"><br><strong>Basics</strong></td>
-    <td width="50%"><img src="docs/assets/preview-color-porcelain-glance.png" alt="Porcelain Glance color preview" width="100%"><br><strong>Glance</strong></td>
+    <td width="100%"><img src="docs/assets/preview-color-porcelain-basics.png" alt="Porcelain Basics color preview" width="100%"><br><strong>Basics</strong></td>
   </tr>
   <tr><td colspan="2"><img src="docs/assets/preview-color-porcelain.png" alt="Porcelain Lupi Editorial color preview" width="100%"><br><strong>Lupi Editorial</strong></td></tr>
 </table>
@@ -123,8 +122,7 @@ A black and gray palette with one fluorescent orange focal point.
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/assets/preview-color-wire-basics.png" alt="Wire Basics color preview" width="100%"><br><strong>Basics</strong></td>
-    <td width="50%"><img src="docs/assets/preview-color-wire-glance.png" alt="Wire Glance color preview" width="100%"><br><strong>Glance</strong></td>
+    <td width="100%"><img src="docs/assets/preview-color-wire-basics.png" alt="Wire Basics color preview" width="100%"><br><strong>Basics</strong></td>
   </tr>
   <tr><td colspan="2"><img src="docs/assets/preview-color-wire.png" alt="Wire Lupi Editorial color preview" width="100%"><br><strong>Lupi Editorial</strong></td></tr>
 </table>
@@ -139,7 +137,6 @@ Lieflat Charts can now generate complete HTML reports in addition to individual 
   <tr>
     <td width="25%"><img src="docs/assets/reports/en/report-03.png" alt="Report Template 03 Annual Data Report / Poster" width="100%"><br><strong>R03 · Annual Data Report / Poster</strong></td>
     <td width="25%"><img src="docs/assets/reports/en/report-09.png" alt="Report Template 09 Business Data / Financial Dashboard" width="100%"><br><strong>R09 · Business Data / Financial Dashboard</strong></td>
-    <td width="25%"><img src="docs/assets/reports/en/report-12.png" alt="Report Template 12 Periodic Data Brief / Monitoring Summary" width="100%"><br><strong>R12 · Periodic Data Brief / Monitoring Summary</strong></td>
     <td width="25%"><img src="docs/assets/reports/en/report-08.png" alt="Report Template 08 Population / Socioeconomic One-Pager" width="100%"><br><strong>R08 · Population / Socioeconomic One-Pager</strong></td>
   </tr>
   <tr>
