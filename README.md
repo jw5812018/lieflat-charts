@@ -138,7 +138,7 @@ Mono 黑白灰是稳定的保底方案，同时也有彩色模式，目前支持
     <td width="25%"><img src="docs/assets/reports/report-03.png" alt="报告模板 03 年度数据报告 / 年度海报" width="100%"><br><strong>R03 · 年度数据报告 / 年度海报</strong></td>
     <td width="25%"><img src="docs/assets/reports/report-09.png" alt="报告模板 09 业务数据 / 财务经营 Dashboard" width="100%"><br><strong>R09 · 业务数据 / 财务经营 Dashboard</strong></td>
     <td width="25%"><img src="docs/assets/reports/report-08.png" alt="报告模板 08 人群与社会经济数据一页" width="100%"><br><strong>R08 · 人群 / 社会经济数据一页</strong></td>
-    <td width="25%"><img src="docs/assets/reports/report-12-v2.png" alt="报告模板 12 周期数据快报 / 监控摘要" width="100%"><br><strong>R12 · 周期数据快报 / 监控摘要</strong></td>
+    <td width="25%"><img src="docs/assets/reports/report-12-v3.png" alt="报告模板 12 周期数据快报 / 监控摘要" width="100%"><br><strong>R12 · 周期数据快报 / 监控摘要</strong></td>
   </tr>
   <tr>
     <td width="25%"><img src="docs/assets/reports/report-01.png" alt="报告模板 01 调研报告 / 研究一页" width="100%"><br><strong>R01 · 调研报告 / 研究一页</strong></td>
