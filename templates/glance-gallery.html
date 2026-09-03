@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Lieflat Charts — Glance Gallery · 22 张参考实现</title>
+<title>Lieflat Charts — Glance Gallery · 21 张参考实现</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@6/dist/echarts.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@
 <body>
 <div class="pagehead">
 
-  <h1>Glance 系（快读）· 22 张参考实现</h1>
+  <h1>Glance 系（快读）· 21 张参考实现</h1>
   <p>粗笔画 · 提前聚合 · 3 秒读完。每张卡是一个图型的参考实现；代码在页内 <code>// ════ 图型名 ════</code> 注释块里，按 catalog.md 的卡内标题检索。</p>
 </div>
 <div class="grid2">
@@ -56,12 +56,6 @@
     <div class="src">RANGE CAPSULES · MONO-DEMO · LIVE OPS</div>
   </div>
 
-  <div class="card dark">
-    <h2>How releases made us feel</h2>
-    <div class="sub">reactions tagged in retro · H1 2026</div>
-    <div class="ch" id="rose"></div>
-    <div class="src">PETAL ROSE · MONO-DEMO · TEAM RETRO BOARD</div>
-  </div>
 
   <div class="card">
     <h2>Revenue by plan</h2>
@@ -284,35 +278,6 @@ cReveal('c1',()=>({
 }));
 })();
 
-// ════ mono-demo · 2: petal rose on dark ════
-(()=>{
-const EMO=[
-  ['Happiness',12],['Awe',10],['Admiration',5],['Surprise',12],
-  ['Sadness',6],['Fear',4],['Anger',2],['Anticipation',5],
-];
-const MAXV=12;
-const petal=v=>{const t=v/MAXV;return t>.8?'#F2F1ED':t>.6?'#E4E3DD':t>.35?'#C9C8C1':'#A8A7A0'};
-eReveal('rose',{
-  animationDuration:1100,animationEasing:'quarticOut',
-  tooltip:{...tipDark,formatter:p=>p.name+' — '+EMO[p.dataIndex][1]},
-  series:[
-    {type:'pie',silent:false,radius:['14%','92%'],center:['50%','50%'],
-     itemStyle:{color:'#32312D',borderRadius:16,borderColor:'#1C1C1A',borderWidth:5},
-     label:{show:false},emphasis:{scale:false},
-     data:EMO.map(([n])=>({name:n,value:1})),z:1},
-    {type:'pie',silent:true,radius:['14%','92%'],center:['50%','50%'],
-     itemStyle:{color:'transparent'},label:{position:'inside'},
-     data:EMO.map(([n,v])=>({name:n,value:1,
-       label:{formatter:`{n|${v}}\n{l|${n}}`,rich:{
-         n:{fontSize:17,fontWeight:700,fontFamily:'Inter',lineHeight:20,color:v>=8?'#1C1C1A':'#C8C7C1'},
-         l:{fontSize:9.5,fontFamily:'Inter',color:v>=8?'#55554F':'#8F8E88'},
-       }}})),z:3},
-    {type:'pie',roseType:'area',silent:true,radius:['14%','88%'],center:['50%','50%'],
-     itemStyle:{borderRadius:14,borderColor:'#1C1C1A',borderWidth:5},label:{show:false},
-     data:EMO.map(([n,v])=>({name:n,value:v,itemStyle:{color:petal(v)}})),z:2},
-  ],
-});
-})();
 
 // ════ mono-demo · 3: chunky bars, values on top ════
 (()=>{
@@ -927,7 +892,7 @@ obsReveal('stroke',el=>{
 })();
 
 addEventListener('resize',()=>{
-  ['rose','forest','circular','tree','rainfall','morph','negbar','force','wave',
+  ['forest','circular','tree','rainfall','morph','negbar','force','wave',
    'custompie','singleaxis','jitter','race','stream','stroke']
     .forEach(id=>echarts.getInstanceByDom(document.getElementById(id))?.resize());
 });

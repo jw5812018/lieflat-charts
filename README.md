@@ -34,14 +34,13 @@ Mono 黑白灰是稳定的保底方案，同时也有彩色模式，目前支持
 
 ### Glance
 
-快读、聚合、结论先行。精选 22 张快速判断型模板中的代表图型。
+快读、聚合、结论先行。精选 21 张快速判断型模板中的代表图型。
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/assets/preview-glance-01.png" alt="Glance 快读型预览一" width="100%"></td>
     <td width="50%"><img src="docs/assets/preview-glance-02.png" alt="Glance 快读型预览二" width="100%"></td>
+    <td width="50%"><img src="docs/assets/preview-glance-03.png" alt="Glance 快读型预览三" width="100%"></td>
   </tr>
-  <tr><td colspan="2"><img src="docs/assets/preview-glance-03.png" alt="Glance 快读型预览三" width="100%"></td></tr>
 </table>
 
 动态预览：
@@ -109,8 +108,7 @@ Mono 黑白灰是稳定的保底方案，同时也有彩色模式，目前支持
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/assets/preview-color-palm-basics.png" alt="椰林绿 Basics 彩色图表预览" width="100%"><br><strong>Basics</strong></td>
-    <td width="50%"><img src="docs/assets/preview-color-palm-glance.png" alt="椰林绿 Glance 彩色图表预览" width="100%"><br><strong>Glance</strong></td>
+    <td width="100%"><img src="docs/assets/preview-color-palm-basics.png" alt="椰林绿 Basics 彩色图表预览" width="100%"><br><strong>Basics</strong></td>
   </tr>
   <tr><td colspan="2"><img src="docs/assets/preview-color-palm.png" alt="椰林绿 Lupi 彩色图表预览" width="100%"><br><strong>Lupi Editorial</strong></td></tr>
 </table>

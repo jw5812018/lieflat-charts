@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Lieflat Glance 22 × PORCELAIN</title>
+<title>Lieflat Glance 21 × PORCELAIN</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@6/dist/echarts.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@
 </head>
 <body>
 <div class="pagehead">
-    <h1>Glance 系（快读）· 22 张 × PORCELAIN</h1>
+    <h1>Glance 系（快读）· 21 张 × PORCELAIN</h1>
   <p><span class="chip" style="background:#334EAC"></span><span class="chip" style="background:#7096D1"></span><span class="chip" style="background:#BAD6EB"></span><span class="chip" style="background:#D0E3FF"></span><span class="chip" style="background:#081F5C"></span><span class="chip" style="background:#F7F2EB"></span> &nbsp;青瓷蓝家族 · Dawn → Sky → China → Royal → Midnight 五档全是原厂色号，零补档。Moon 当底，Midnight 当文字兼主角。</p>
   <p style="margin-top:7px">颜色在每张图里都编码一个维度，不是全图一个墨色：分类型（5 个来源 / 4 条产品线 / 5 个工作日 / 10 支小队 / 12 个集成）各走一个分类位，序数型（8 年营收排名 / 50 个市场 / 4 档优先级 / 树木年份 / 面板停留时长 / 情绪票数）走 5 档梯，深色卡换纸色梯、末档落在强调色。几何、动画、数据与 glance-gallery 逐节点一致；结构线仍是文字色的透明档，不引入新色相。滚入播动画，点击重播。</p>
 </div>
@@ -57,12 +57,6 @@
     <div class="src">RANGE CAPSULES · MONO-DEMO · LIVE OPS</div>
   </div>
 
-  <div class="card dark">
-    <h2>How releases made us feel</h2>
-    <div class="sub">reactions tagged in retro · H1 2026</div>
-    <div class="ch" id="rose"></div>
-    <div class="src">PETAL ROSE · MONO-DEMO · TEAM RETRO BOARD</div>
-  </div>
 
   <div class="card">
     <h2>Revenue by plan</h2>
@@ -310,39 +304,6 @@ cReveal('c1',()=>({
 }));
 })();
 
-// ════ mono-demo · 2: petal rose on dark ════
-(()=>{
-const EMO=[
-  ['Happiness',12],['Awe',10],['Admiration',5],['Surprise',12],
-  ['Sadness',6],['Fear',4],['Anger',2],['Anticipation',5],
-];
-const MAXV=12;
-const petal=v=>{const t=v/MAXV;return t>.8?DRAMP4[0]:t>.6?DRAMP4[1]:t>.35?DRAMP4[2]:DRAMP4[3]};
-// 标签固定落在环宽中段，只有票数够多的花瓣才铺到那儿；没铺到的按卡底配字色
-const onPetal=v=>v/MAXV>.6;
-eReveal('rose',{
-  animationDuration:1100,animationEasing:'quarticOut',
-  tooltip:{...tipDark,formatter:p=>p.name+' — '+EMO[p.dataIndex][1]},
-  series:[
-    {type:'pie',silent:false,radius:['14%','92%'],center:['50%','50%'],
-     itemStyle:{color:DSHELL,borderRadius:16,borderColor:DARK,borderWidth:5},
-     label:{show:false},emphasis:{scale:false},
-     data:EMO.map(([n])=>({name:n,value:1})),z:1},
-    {type:'pie',silent:true,radius:['14%','92%'],center:['50%','50%'],
-     itemStyle:{color:'transparent'},label:{position:'inside'},
-     data:EMO.map(([n,v])=>({name:n,value:1,
-       label:{formatter:`{n|${v}}\n{l|${n}}`,rich:{
-         n:{fontSize:17,fontWeight:700,fontFamily:'Inter',lineHeight:20,
-              color:onPetal(v)?readable(petal(v)):DMID},
-         l:{fontSize:9.5,fontFamily:'Inter',
-              color:onPetal(v)?alpha(readable(petal(v)),.66):DQ},
-       }}})),z:3},
-    {type:'pie',roseType:'area',silent:true,radius:['14%','88%'],center:['50%','50%'],
-     itemStyle:{borderRadius:14,borderColor:DARK,borderWidth:5},label:{show:false},
-     data:EMO.map(([n,v])=>({name:n,value:v,itemStyle:{color:petal(v)}})),z:2},
-  ],
-});
-})();
 
 // ════ mono-demo · 3: chunky bars, values on top ════
 (()=>{
@@ -963,7 +924,7 @@ obsReveal('stroke',el=>{
 })();
 
 addEventListener('resize',()=>{
-  ['rose','forest','circular','tree','rainfall','morph','negbar','force','wave',
+  ['forest','circular','tree','rainfall','morph','negbar','force','wave',
    'custompie','singleaxis','jitter','race','stream','stroke']
     .forEach(id=>echarts.getInstanceByDom(document.getElementById(id))?.resize());
 });

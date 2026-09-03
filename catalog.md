@@ -1,4 +1,4 @@
-# Lieflat Charts 图型目录 · 64 张
+# Lieflat Charts 图型目录 · 63 张
 
 > 每张图挂三个标签：**数据形状**（选图的主键）、**场合**、**读者时间**。
 > **主力与后备：** 主力是 L1–L15 与 F1–F13，默认从这里出图。L16–L20、F14–F17、G19–G22 是后备，只有主力无法诚实编码这份数据时才用，并要写明理由。例外是 F15、F16、F17、L17、L20 这五张——主力里不存在对应编码，命中相应数据形状时直接用（见 `SKILL.md` 第零节 3.1 / 3.2）。
@@ -6,12 +6,11 @@
 > 「姊妹」列 = 同题异构对子，只用于比较数据契约和召回候选，不代表两案都要生成，也不能改变上述优先级。
 > 参考实现在 `templates/`：Glance 系 `templates/glance-gallery.html`，Lupi 系 `templates/lupi-gallery.html`，基础型组 `templates/basics-gallery.html`，地图 `templates/maps-gallery.html`，大图 `templates/big-*.html`。地图只有在用户明确要求地图或地域分布时才召回。gallery 是多卡合页——查某张图的代码，先按下表「卡内标题」找到卡片，再在 `<script>` 里搜同名 `// ════` 注释块。真实数据成品案例在 `examples/`。
 
-## Glance 系 · 22 张（粗笔画 · 提前聚合 · 3 秒读完）
+## Glance 系 · 21 张（粗笔画 · 提前聚合 · 3 秒读完）
 
 | # | 名字 | 卡内标题 | 数据形状 | 场合 | 读者时间 | 引擎 | 姊妹 |
 |---|------|---------|---------|------|---------|------|------|
 | G1 | Range Capsules | Daily active range | 每天一个区间（min–max）的日序列 | 周报 dashboard | <10s | Chart.js* | L3 Barcode Lollipop |
-| G2 | Petal Rose | How releases made us feel | 单变量分类计数，≤8 类且近似等分 | 门面/封面 | <10s | ECharts（暗卡） | G13 Big Slice（双变量时升级） |
 | G3 | Chunky Bars | Revenue by plan | 少类目排名比较（≤6） | 周报 dashboard | <10s | Chart.js* | L2 Dot Cascade；多选百分比 → L15 Ballot Tally |
 | G4 | Dot Waffle | Where sign-ups come from | 100% 构成（占比） | 通用，饼图的默认替代 | <10s | 手写 SVG | L14 Hundred Field |
 | G5 | Pictorial Bar | Trees planted, year by year | 逐年计数（一个符号=固定数量） | 对外故事页 | <10s | ECharts | — |
@@ -22,7 +21,7 @@
 | G10 | Diverging Bar | Where we gained, where we bled | 有正负的分类数值 | 周报 dashboard | <10s | ECharts | —（Equalizer、Meridian Dots 已删） |
 | G11 | Force Graph（小） | Integrations, pulled into orbit | 中心+卫星网络，≤15 节点 | 快速示意，可拖 | <10s | ECharts（暗卡） | 大图 B2 的预览版；静态海报版 L6 |
 | G12 | Stagger Wave | Fifty markets, one wave | 多类目分布（30–60 根） | 短视频入场 | 动画 | ECharts | — |
-| G13 | Big Slice (Custom Pie) | Big slice, deep engagement | 双编码：占比(角)×强度(径) | 产品分析 | ~30s | ECharts custom | G2 Petal Rose（单变量时降级） |
+| G13 | Big Slice (Custom Pie) | Big slice, deep engagement | 双编码：占比(角)×强度(径) | 产品分析 | ~30s | ECharts custom | — |
 | G14 | Single Axis | Support load, day by day | 星期×小时×量（punch card 数据） | 支持/运维周报 | ~30s | ECharts | —（Punch Card 已删，此为唯一版本） |
 | G15 | Jitter Strip | Response times, spread out | 分组分布，逐条记录（几百点） | SRE/工单分析 | ~30s | ECharts | — |
 | G16 | Bar Race | Eight products race | 排名随时间演变 | 短视频 | 动画 | ECharts realtimeSort | — |

@@ -64,7 +64,7 @@ const galleryGroups = {
   },
   glance: {
     label: 'Glance',
-    range: /22 张|Glance 22/,
+    range: /21 张|Glance 21/,
     ids: ['violin', 'gheat', 'rankstrip', 'sankey'],
   },
   maps: {

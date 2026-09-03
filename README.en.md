@@ -34,14 +34,13 @@ Detailed, record-level, and editorial. Selected examples from 20 narrative templ
 
 ### Glance
 
-Fast reading, pre-aggregated information, and conclusion-first composition. Selected examples from 22 Glance templates.
+Fast reading, pre-aggregated information, and conclusion-first composition. Selected examples from 21 Glance templates.
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/assets/preview-glance-01.png" alt="Glance preview one" width="100%"></td>
     <td width="50%"><img src="docs/assets/preview-glance-02.png" alt="Glance preview two" width="100%"></td>
+    <td width="50%"><img src="docs/assets/preview-glance-03.png" alt="Glance preview three" width="100%"></td>
   </tr>
-  <tr><td colspan="2"><img src="docs/assets/preview-glance-03.png" alt="Glance preview three" width="100%"></td></tr>
 </table>
 
 Motion preview:
@@ -109,8 +108,7 @@ A low-saturation green and yellow family for a small number of unordered categor
 
 <table>
   <tr>
-    <td width="50%"><img src="docs/assets/preview-color-palm-basics.png" alt="Palm Basics color preview" width="100%"><br><strong>Basics</strong></td>
-    <td width="50%"><img src="docs/assets/preview-color-palm-glance.png" alt="Palm Glance color preview" width="100%"><br><strong>Glance</strong></td>
+    <td width="100%"><img src="docs/assets/preview-color-palm-basics.png" alt="Palm Basics color preview" width="100%"><br><strong>Basics</strong></td>
   </tr>
   <tr><td colspan="2"><img src="docs/assets/preview-color-palm.png" alt="Palm Lupi Editorial color preview" width="100%"><br><strong>Lupi Editorial</strong></td></tr>
 </table>
